@@ -1,0 +1,17 @@
+{
+  "thermostat": {
+    "default_temp": 70,
+    "temperature-read-interval": 7.5,
+    "temperature-history": 45,
+    "refresh-interval": 30,
+    "fall-below-threshold": 1.0
+  },
+  "kasa": {
+    "subnet": "192.168.1.255",
+    "mac_address": "FF:FF:FF:FF:FF:FF"
+  },
+  "home-detection": {
+    "mac_address": "FF:FF:FF:FF:FF:FF",
+    "time-until-off": 300
+  }
+}

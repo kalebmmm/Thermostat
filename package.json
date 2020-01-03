@@ -1,0 +1,15 @@
+{
+  "name": "thermostat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "morgan": "^1.9.1",
+    "tplink-smarthome-api": "^1.3.0",
+    "ws": "^7.2.1"
+  }
+}

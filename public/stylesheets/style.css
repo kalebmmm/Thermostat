@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+	max-width: 400px;
+	height: 100vh;
+	margin: auto;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;;
+	color: white;
+	background: linear-gradient(0deg, rgba(40,119,187,1) 0%, rgba(32,237,228,1) 100%);
+	transition: background 5s ease;
+	overflow: hidden;
+}
+
+* {
+	touch-action: manipulation;
+}
+
+.chevron {
+	height: 75px;
+	cursor: pointer;
+}
+
+.thermostat {
+	justify-content: center!important;
+	flex-flow: column;
+	align-items: center;
+}
+
+.thermostat-control {
+	height: 200px;
+	width: 200px;
+	margin: 25px;
+	border: 15px solid white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#thermostat-temp {
+	margin: 0;
+	height: fit-content;
+	width: fit-content;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.infobar {
+	border-top: 3px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+#home-away {
+	font-variant: all-small-caps;
+	font-size: 25px;
+	margin: 0;
+	height: fit-content;
+	width: fit-content;
+}
+
+a {
+	color: #00B7FF;
+}
